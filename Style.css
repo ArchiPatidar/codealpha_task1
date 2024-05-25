@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #00796b;
+}
+
+
+label {
+    font-size: 1rem;
+    color: #00796b;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+input[type="date"] {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    width: calc(100% - 1rem);
+    border: 2px solid #00796b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: translateY(-2px);
+}
+
+
+#currentAge {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00796b;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        padding: 1.5rem 2rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 0.75rem;
+    }
+}
